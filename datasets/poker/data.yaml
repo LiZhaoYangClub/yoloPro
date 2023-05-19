@@ -1,0 +1,70 @@
+train: /Users/aklzyang/examples/pro/datasets/poker/train/images
+val: /Users/aklzyang/examples/pro/datasets/poker/valid/images
+test: /Users/aklzyang/examples/pro/datasets/poker/test/images
+
+nc: 55
+names:
+  [
+    '11_1',
+    '11_2',
+    '11_3',
+    '11_4',
+    '12_1',
+    '12_2',
+    '12_3',
+    '12_4',
+    '13_1',
+    '13_2',
+    '13_3',
+    '13_4',
+    '2_1',
+    '2_2',
+    '2_3',
+    '2_4',
+    '3_1',
+    '3_2',
+    '3_3',
+    '3_4',
+    '4_1',
+    '4_2',
+    '4_3',
+    '4_4',
+    '5_1',
+    '5_2',
+    '5_3',
+    '5_4',
+    '6_1',
+    '6_2',
+    '6_3',
+    '6_4',
+    '7_1',
+    '7_2',
+    '7_3',
+    '7_4',
+    '8_1',
+    '8_2',
+    '8_3',
+    '8_4',
+    '9_1',
+    '9_2',
+    '9_3',
+    '9_4',
+    'A_1',
+    'A_2',
+    'A_3',
+    'A_4',
+    'D',
+    'T_1',
+    'T_2',
+    'T_3',
+    'T_4',
+    'X',
+    'pass'
+  ]
+
+roboflow:
+  workspace: lzy-rvjhr
+  project: poker-detect
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/lzy-rvjhr/poker-detect/2
